@@ -96,7 +96,7 @@ function App() {
 
     {/* Display ToDos */}
 
-    {toDo && toDo.length ? '' : 'No Tasks...'}
+    {toDo && toDo.length ? '' : 'add task...'}
 
     <ToDo
       toDo={toDo}
